@@ -1,0 +1,291 @@
+.dash.navbar {
+  margin-top: 12px;
+}
+
+.navbar-brand .navbar-text {
+  color: #000000;
+  font-size: 15px;
+  margin-left: 8px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.dash.nav-link {
+  color: #3c4858 !important;
+  margin: 0 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 12px !important;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 20px;
+  position: relative;
+  /* display: flex; */
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: #3c4858;
+  background: #e0deda;
+}
+
+.dash.nav-link.active {
+  color: #3c4858;
+  background-color: #e0deda;
+}
+
+.dash.card {
+  margin-top: 30px;
+  background: #ededed;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 -1px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+  flex-direction: column;
+  margin-bottom: 0px !important;
+  padding: 40px 30px 10px 10px !important;
+  padding-bottom: 45px !important;
+  border: none;
+  min-height: 350px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-title {
+  color: #3c4858;
+  width: 100;
+  padding: 0;
+  font-size: 23px;
+  max-width: 276px;
+  margin-top: 0;
+  min-height: auto;
+  text-align: center;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+.navpills .nav-item {
+  height: auto;
+  display: block;
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 30px;
+  background-color: #ededed;
+  border: none;
+  margin: 10px 0px;
+  float: none !important;
+  width: 100%;
+  outline: none;
+}
+
+.nav-item.tab-root:active,
+.nav-item.tab-root:focus {
+  color: #fff;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(233, 30, 99, 0.4);
+  background-color: #e91e63;
+  transition: all 0.6s;
+}
+
+.nav-item.tab-root {
+  color: #555555;
+  /* box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14); */
+  /* 0 7px 10px -5px rgba(233, 30, 99, 0.4); */
+  /* background-color: #e91e63; */
+  padding: 6px 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+  min-height: 48px;
+  flex-shrink: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  outline: none !important;
+}
+
+.navlink.title {
+  color: inherit;
+  display: block;
+  position: relative;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Dashboard License Card Section */
+
+.card.cardLicense {
+  margin-bottom: 15px;
+  padding: 10px 10px 0px 10px !important;
+  /* margin: 0; */
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dashboardCardContent {
+  width: 100%;
+  border: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  /* border-radius: 4px; */
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+
+.customLinearProgressBarComplete {
+  background: rgba(76, 175, 80, 0.2);
+  height: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s linear;
+}
+
+.customLinearProgressComplete-success {
+  background-color: #4caf50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  transition: transform 0.2s linear;
+  transform-origin: left;
+}
+
+.DashboardContentTitle {
+  color: #3c4858;
+  /* font-size: 21px !important; */
+  text-align: left !important;
+  font-weight: 300 !important;
+  line-height: 1 !important;
+  font-size: 21px !important;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  margin: 0;
+  margin-bottom: 0.35em;
+  display: flex;
+  padding: 0 !important;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.gridItem-startLicense {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  padding-left: 0 !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* padding: 0 15px !important; */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.badge-success {
+  font-family: Inconsolata, monospace;
+  background-color: #4caf50;
+}
+
+.Badge-badge {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 12px !important;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
+.dashboardCardAction-1 {
+  height: auto !important;
+  display: flex;
+  padding: 0;
+  margin-left: -35px;
+}
+
+.cardActionTitle-1 {
+  color: #3c4858 !important;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-right: 7px;
+  letter-spacing: initial;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+.cardActionButton {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.btn.btn-success {
+  padding: 0.40625rem 1.25rem;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 2px 0 rgba(76, 175, 80, 0.14),
+    0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12);
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0.3125rem 1px;
+  min-width: auto;
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btnLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}

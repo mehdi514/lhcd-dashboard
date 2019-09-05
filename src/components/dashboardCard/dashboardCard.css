@@ -1,0 +1,313 @@
+/* Dashboard License Card Section */
+
+.card.cardLicense {
+  margin-bottom: 15px;
+  padding: 12px 10px 0px 12px !important;
+  min-height: 190px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dashboardCardContent {
+  width: 100%;
+  border: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+
+.customLinearProgressBarComplete {
+  background: rgba(76, 175, 80, 0.2);
+  height: 4px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s linear;
+}
+
+.customLinearProgressComplete-success {
+  background-color: #4caf50;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  transition: transform 0.2s linear;
+  transform-origin: left;
+}
+
+.DashboardContentTitle {
+  color: #3c4858;
+  /* font-size: 21px !important; */
+  text-align: left !important;
+  font-weight: 300 !important;
+  line-height: 1 !important;
+  font-size: 21px !important;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  margin: 0;
+  margin-bottom: 0.35em;
+  display: flex;
+  padding: 0 !important;
+  text-align: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.gridItem-startLicense {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  padding-left: 0 !important;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* padding: 0 15px !important; */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.badge-success {
+  font-family: Inconsolata, monospace;
+  background-color: #4caf50;
+}
+
+.Badge-badge {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 12px !important;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
+.dashboardCardAction-1 {
+  height: auto !important;
+  display: flex;
+  padding: 0;
+  margin-left: -35px;
+}
+
+.cardActionTitle-1 {
+  color: #3c4858 !important;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-right: 7px;
+  letter-spacing: initial;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+.cardActionButton {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.btn.btn-success {
+  padding: 0.40625rem 1.25rem;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 2px 0 rgba(76, 175, 80, 0.14),
+    0 3px 1px -2px rgba(76, 175, 80, 0.2), 0 1px 5px 0 rgba(76, 175, 80, 0.12);
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 0.3125rem 1px;
+  min-width: auto;
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btnLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.customLinearProgress-root {
+  background-color: rgba(0, 172, 193, 0.2);
+  height: 4px;
+  overflow: hidden;
+  /* color: rgba(0, 0, 0, 0.87); */
+}
+
+/* .progressInfo {
+  background-color: #00acc1;
+  transform: translateX(-100%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  transition: transform 0.2s linear;
+  transform-origin: left;
+} */
+
+.gridItem-startLicense-2 {
+  /* background-color: #00acc1; */
+}
+
+.Badge-badge-2.badge-info {
+  color: #FFF;
+  display: inline-block;
+  /* display: flex;
+  justify-content: flex-end; */
+  padding: 5px 12px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 12px;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+}
+
+.dashboardVideoAction-1 {
+  height: auto !important;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.videoActionTitle-1 {
+  color: #3c4858;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-right: 7px;
+  letter-spacing: initial;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  line-height: 1.5;
+}
+
+.dashboardVideoAction-2 {
+  height: auto !important;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.videoActionTitle-2 {
+  color: #3c4858;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  text-align: center;
+}
+
+.videoActionButton {
+  width: 100%;
+  justify-content: flex-end;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.btn.btn-normBtn {
+  padding: 0.40625rem 1.25rem;
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 172, 193, 0.14),
+    0 3px 1px -2px rgba(0, 172, 193, 0.2),
+    0 1px 5px 0 rgba(0, 172, 193, 0.12);
+  background-color: #00acc1;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  margin: .3125rem 1px;
+  min-height: auto;
+  text-align: center;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  white-space: nowrap;
+  will-change: box-shadow,
+    transform;
+  touch-action: manipulation;
+}
+
+.normBtnLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+}
+
+.card.cardLicenseGetCard {
+  border: 1px solid #E1E1E1;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  padding: 70px;
+  background: transparent;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.14);
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 190px;
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  /* background-color: #fff; */
+}
+
+.cardLicenseGetCard-label {
+  color: #3c4858;
+  margin-top: 5px;
+  font-size: 13px;
+  font-weight: 300;
+  white-space: nowrap;
+  margin-right: 7px;
+  letter-spacing: initial;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  line-height: 1.5;
+}
