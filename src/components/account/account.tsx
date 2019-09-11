@@ -7,7 +7,7 @@ export class Account extends React.Component {
     return (
       <div className="row">
         <div className="col-md-12">
-          <div className="card tab-containter">
+          <div className="card tab-container">
             <div className="content-wrapper">
               <div style={{ overflow: 'hidden' }}>
                 <div className="row">
@@ -108,13 +108,13 @@ export class Account extends React.Component {
                           <div className="griditem-twoLineCont-401">
                             <div className="CustomInput-formControl-401 formControl-root">
                               <label className="CustomInput-labelRoot-401 CustomInput-labelRootSuccess-401 InputLabel-animated InputLabel-shrink InputLabel-root">
-                                <span>APT</span>
+                                <span>County</span>
                               </label>
                               <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-401 CustomInput-underline-401">
                                 <input
                                   className="InputBase-input Input-input CustomInput-input-401"
-                                  id="APT"
-                                  placeholder="APT B"
+                                  id="county"
+                                  placeholder="County"
                                   type="text"
                                 ></input>
                               </div>
@@ -196,6 +196,53 @@ export class Account extends React.Component {
                                   id="email"
                                   placeholder="Email"
                                   type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row mt-3">
+                      <div className="col-sm-6">
+                        <div className="grid-item newPassword">
+                          <div className="griditem-twoLineCont-700">
+                            <div className="CustomInput-formControl-700 formControl-root">
+                              <label className="CustomInput-labelRoot-700 CustomInput-labelRootSuccess-700 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>New Password</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-700 CustomInput-underline-700">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-700"
+                                  id="newpassword"
+                                  placeholder="New Password"
+                                  type="password"
+                                ></input>
+                              </div>
+                              <p
+                                className="customInput-helper-700"
+                                id="password-text"
+                              >
+                                Leave blank if you don't want to change your
+                                password
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-6">
+                        <div className="grid-item confirmPassword">
+                          <div className="griditem-twoLineCont-701">
+                            <div className="CustomInput-formControl-701 formControl-root">
+                              <label className="CustomInput-labelRoot-701 CustomInput-labelRootSuccess-701 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>Confirm Password</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-701 CustomInput-underline-701">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-701"
+                                  id="confirmpassword"
+                                  placeholder="Confirm Password"
+                                  type="password"
                                 ></input>
                               </div>
                             </div>
