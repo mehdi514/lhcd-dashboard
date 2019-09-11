@@ -4,6 +4,7 @@
   background-color: #fff;
   padding: 0 15px !important;
   border: none;
+  min-height: 250px !important;
 }
 
 .content-wrapper {
@@ -94,6 +95,26 @@
     "Helvetica",
     "Arial",
     sans-serif;
+}
+
+.col-sm-6 {
+  padding: 0 !important;
+}
+
+.col-sm-2 {
+  padding: 0 !important;
+}
+
+.col-sm-4 {
+  padding: 0 !important;
+}
+
+.col-sm-3.zip {
+  padding: 0 !important;
+}
+
+.col-sm-12 {
+  padding: 0 !important;
 }
 
 .TouchRipple-root {
@@ -212,8 +233,8 @@
   pointer-events: none;
 }
 
-.CustomInput-input-300,
 .CustomInput-input-300::placeholder {
+  color: #AAAAAA !important;
   opacity: 1;
   font-size: 14px !important;
   font-family: "Roboto",
@@ -225,19 +246,21 @@
 }
 
 .InputBase-input {
+  font-size: 14px !important;
   outline: none;
   font: inherit;
   color: currentColor;
-  width: 230px;
+  width: 250px;
   border: 0;
   height: 1.1875em;
-  margin: -3px 0 0 0;
+  margin: -2px 0 0 0;
   display: block;
   padding: 0px 0 7px;
   min-width: 0;
   background: none;
   box-sizing: content-box;
   -webkit-tap-highlight-color: transparent;
+  color: #495057 !important;
 }
 
 .Input-underline:after {
@@ -288,8 +311,64 @@
   margin-top: 0px;
 }
 
-.CustomInput-input-301,
 .CustomInput-input-301::placeholder {
+  opacity: 1;
+  color: #AAAAAA !important;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.grid-item.lastName {
+  padding: 0 15px !important;
+}
+
+.grid-item.street {
+  padding: 0 15px !important;
+}
+
+.griditem-twoLineCont-400 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-400 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-400 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 400;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-400 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-400+.CustomInput-underline-400 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-400::placeholder {
+  color: #AAAAAA !important;
   opacity: 1;
   font-size: 14px !important;
   font-family: "Roboto",
@@ -298,4 +377,274 @@
     sans-serif !important;
   font-weight: 400 !important;
   line-height: 1.42857 !important;
+}
+
+.grid-item.APT {
+  padding: 0 15px !important;
+}
+
+.griditem-twoLineCont-401 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-401 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-401 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 401;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-401 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-401+.CustomInput-underline-401 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-401::placeholder {
+  color: #AAAAAA !important;
+  opacity: 1;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.grid-item.city {
+  padding: 0 15px !important;
+}
+
+.griditem-twoLineCont-500 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-500 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-500 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 500;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-500 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-500+.CustomInput-underline-500 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-500::placeholder {
+  color: #AAAAAA !important;
+  opacity: 1;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.grid-item.email {
+  padding: 0 15px !important;
+}
+
+.griditem-twoLineCont-501 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-501 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-501 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 500;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-501 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-501+.CustomInput-underline-501 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-501::placeholder {
+  color: #AAAAAA !important;
+  opacity: 1;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.griditem-twoLineCont-502 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-502 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-502 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 500;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-502 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-502+.CustomInput-underline-502 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-502::placeholder {
+  color: #AAAAAA !important;
+  opacity: 1;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.griditem-twoLineCont-600 {
+  display: flex;
+  padding: 0 !important;
+  justify-content: space-between;
+}
+
+.CustomInput-formControl-600 {
+  position: relative;
+  padding-top: 20px !important;
+  vertical-align: unset;
+}
+
+.CustomInput-labelRoot-600 {
+  /* top: 5px; */
+  color: #AAAAAA !important;
+  width: 100%;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
+  font-weight: 500;
+  line-height: 1.42857;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.CustomInput-labelRootSuccess-600 {
+  color: #4caf50 !important;
+}
+
+.CustomInput-labelRoot-600+.CustomInput-underline-600 {
+  margin-top: 0px;
+}
+
+.CustomInput-input-600::placeholder {
+  color: #AAAAAA !important;
+  opacity: 1;
+  font-size: 14px !important;
+  font-family: "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.42857 !important;
+}
+
+.InputBase-input-email {
+  font-size: 14px !important;
+  outline: none;
+  font: inherit;
+  color: currentColor;
+  width: 535px;
+  border: 0;
+  height: 1.1875em;
+  margin: -2px 0 0 0;
+  display: block;
+  padding: 0px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  -webkit-tap-highlight-color: transparent;
+  color: #495057 !important;
 }

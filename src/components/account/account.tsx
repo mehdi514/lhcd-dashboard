@@ -64,6 +64,145 @@ export class Account extends React.Component {
                         </div>
                       </div>
                     </div>
+                    <div className="row">
+                      <div className="col-sm-6">
+                        <div className="grid-item street">
+                          <div className="griditem-twoLineCont-400">
+                            <div className="CustomInput-formControl-400 formControl-root">
+                              <label className="CustomInput-labelRoot-400 CustomInput-labelRootSuccess-400 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span style={{ color: '#AAAAAA' }}>Street</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-400 CustomInput-underline-400">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-400"
+                                  id="street"
+                                  placeholder="Address 1"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-2">
+                        <div className="grid-item APT">
+                          <div className="griditem-twoLineCont-401">
+                            <div className="CustomInput-formControl-401 formControl-root">
+                              <label className="CustomInput-labelRoot-401 CustomInput-labelRootSuccess-401 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span style={{ color: '#AAAAAA' }}>APT</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-401 CustomInput-underline-401">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-401"
+                                  id="APT"
+                                  placeholder="APT B"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="grid-item APT">
+                          <div className="griditem-twoLineCont-401">
+                            <div className="CustomInput-formControl-401 formControl-root">
+                              <label className="CustomInput-labelRoot-401 CustomInput-labelRootSuccess-401 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>APT</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-401 CustomInput-underline-401">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-401"
+                                  id="APT"
+                                  placeholder="APT B"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-sm-6">
+                        <div className="grid-item city">
+                          <div className="griditem-twoLineCont-500">
+                            <div className="CustomInput-formControl-500 formControl-root">
+                              <label className="CustomInput-labelRoot-500 CustomInput-labelRootSuccess-500 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>City</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-500 CustomInput-underline-500">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-500"
+                                  id="city"
+                                  placeholder="City"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-3">
+                        <div className="grid-item state">
+                          <div className="griditem-twoLineCont-501">
+                            <div className="CustomInput-formControl-501 formControl-root">
+                              <label className="CustomInput-labelRoot-501 CustomInput-labelRootSuccess-501 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>State</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-501 CustomInput-underline-501">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-501"
+                                  id="state"
+                                  placeholder="State"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-sm-3 zip">
+                        <div className="grid-item zip">
+                          <div className="griditem-twoLineCont-502">
+                            <div className="CustomInput-formControl-502 formControl-root">
+                              <label className="CustomInput-labelRoot-502 CustomInput-labelRootSuccess-502 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>Zip Code</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-502 CustomInput-underline-502">
+                                <input
+                                  className="InputBase-input Input-input CustomInput-input-502"
+                                  id="zip"
+                                  placeholder="Zip Code"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <div className="col-sm-12">
+                        <div className="grid-item email">
+                          <div className="griditem-twoLineCont-600">
+                            <div className="CustomInput-formControl-600 formControl-root">
+                              <label className="CustomInput-labelRoot-600 CustomInput-labelRootSuccess-600 InputLabel-animated InputLabel-shrink InputLabel-root">
+                                <span>Email</span>
+                              </label>
+                              <div className="InputBase-root Input-root Input-underline CustomInput-labelRoot-600 CustomInput-underline-600">
+                                <input
+                                  className="InputBase-input-email Input-input CustomInput-input-600"
+                                  id="email"
+                                  placeholder="Email"
+                                  type="text"
+                                ></input>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
