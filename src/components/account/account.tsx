@@ -250,6 +250,30 @@ export class Account extends React.Component {
                         </div>
                       </div>
                     </div>
+                    <div className="row mt-3">
+                      <div className="col-sm-6">
+                        <div className="grid-item text-center">
+                          <button
+                            className="updateButton-button-800 updateButton-button-850 updateButton-success-800 Button-text"
+                            type="button"
+                          >
+                            <span className="Button-label">Update</span>
+                            <span className="touch-root"></span>
+                          </button>
+                        </div>
+                      </div>
+                      <div className="col-sm-6">
+                        <div className="grid-item text-center">
+                          <button
+                            className="resetButton-button-810 resetButton-sm-820 resetInfo-button-870 resetButton-810 Button-text"
+                            type="button"
+                          >
+                            <span className="Button-label">Reset Changes</span>
+                            <span className="touch-root"></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -15,14 +15,14 @@ export class DashboardCard extends React.Component {
           </div>
           <div className="card cardLicense">
             <div className="dashboardCardContent">
-              <div className="col-sm-12" style={{ padding: 3 }}>
+              <div className="col-md-12" style={{ padding: 3 }}>
                 <div className="row">
-                  <div className="col-sm-7">
+                  <div className="col-md-7">
                     <p className="DashboardContentTitle">
                       Food Employee (Handler) Certification
                     </p>
                   </div>
-                  <div className="col-sm-5">
+                  <div className="col-md-5">
                     <div className="gridItem-startLicense">
                       <span className="Badge-badge badge-success">
                         15-00-03d
@@ -31,9 +31,9 @@ export class DashboardCard extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12" style={{ padding: 3 }}>
+              <div className="col-md-12" style={{ padding: 3 }}>
                 <div className="row" style={{ marginTop: '-13px' }}>
-                  <div className="col-sm-4">
+                  <div className="col-md-4">
                     <img
                       src={qr}
                       style={{
@@ -43,7 +43,7 @@ export class DashboardCard extends React.Component {
                       alt="qr-code"
                     ></img>
                   </div>
-                  <div className="col-sm-8">
+                  <div className="col-md-8">
                     <div className="dashboardCardAction-1">
                       <p className="cardActionTitle-1">Seth Horsley</p>
                     </div>
@@ -72,14 +72,14 @@ export class DashboardCard extends React.Component {
           </div>
           <div className="card cardLicense">
             <div className="dashboardCardContent">
-              <div className="col-sm-12" style={{ padding: 3 }}>
+              <div className="col-md-12" style={{ padding: 3 }}>
                 <div className="row">
-                  <div className="col-sm-7">
+                  <div className="col-md-7">
                     <p className="DashboardContentTitle">
                       Food Manager Certification
                     </p>
                   </div>
-                  <div className="col-sm-5">
+                  <div className="col-md-5">
                     <div className="gridItem-startLicense-2">
                       <span className="Badge-badge-2 badge-info">
                         In Progress
@@ -88,9 +88,9 @@ export class DashboardCard extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-12" style={{ padding: 3 }}>
+              <div className="col-md-12" style={{ padding: 3 }}>
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-md-4">
                     <div className="text-center">
                       <img
                         src={videoicon}
@@ -103,7 +103,7 @@ export class DashboardCard extends React.Component {
                     </div>
                   </div>
                   <div
-                    className="col-sm-8 mt-3"
+                    className="col-md-8 mt-3"
                     style={{ marginLeft: '-30px' }}
                   >
                     <div className="dashboardVideoAction-1">
@@ -123,7 +123,7 @@ export class DashboardCard extends React.Component {
             </div>
           </div>
         </div>
-        <div className="col-sm-6">
+        <div className="col-md-6">
           <div className="card cardLicenseGetCard">
             <img
               src={add}

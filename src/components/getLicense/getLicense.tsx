@@ -10,7 +10,7 @@ export class GetLicense extends React.Component {
             <div className="cardLicnese-content">
               <div className="row">
                 <div
-                  className="col-sm-8"
+                  className="col-md-8"
                   style={{ display: 'flex', justifyContent: 'flex-start' }}
                 >
                   <div className="grid-items license">
@@ -19,7 +19,7 @@ export class GetLicense extends React.Component {
                     </span>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-md-4">
                   <div className="grid-items text">
                     <p className="grid-items text-title">$25</p>
                   </div>
@@ -57,7 +57,7 @@ export class GetLicense extends React.Component {
             <div className="cardLicnese-content">
               <div className="row">
                 <div
-                  className="col-sm-8"
+                  className="col-md-8"
                   style={{ display: 'flex', justifyContent: 'flex-start' }}
                 >
                   <div className="grid-items license">
@@ -66,7 +66,7 @@ export class GetLicense extends React.Component {
                     </span>
                   </div>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-md-4">
                   <div className="grid-items text">
                     <p className="grid-items text-title">$80</p>
                   </div>
